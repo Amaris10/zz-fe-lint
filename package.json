@@ -1,0 +1,27 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^8.0.0",
+    "vuepress": "^1.9.10"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "husky install",
+    "init": "pnpm install",
+    "clean": "lerna clean && rm -rf node_modules",
+    "test": "lerna run test",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh",
+    "publish": "lerna publish",
+    "lint": "markdownlint README.md"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
