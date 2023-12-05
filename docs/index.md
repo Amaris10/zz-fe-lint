@@ -38,7 +38,7 @@ features:
 
 ## :email: 联系
 
--   **个人邮箱**: <amaris10@126.com>
+-   **个人邮箱**: <amaris10@126.com> 
 -   **GitHub**: <https://github.com/Amaris10/zz-fe-lint>
 
 </br>
