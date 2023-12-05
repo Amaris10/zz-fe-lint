@@ -6,6 +6,9 @@
     "publish": {
       "npmClient": "pnpm",
       "message": "chore: publish %s"
-    }
+    },
+    "packages": [
+      "packages/*"
+    ]
   }
 }

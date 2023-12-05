@@ -103,27 +103,5 @@ export default defineConfig4CustomTheme({
 			},
 		],
 	],
-
-	plugins: <UserPlugins>[
-		[
-			'one-click-copy',
-			{
-				copySelector: ['div[class*="language-"] pre', 'div[class*="aside-code"] aside'],
-				copyMessage: '复制成功',
-				duration: 1000,
-				showInMobile: false,
-			},
-		],
-
-		[
-			'vuepress-plugin-zooming',
-			{
-				selector: '.theme-vdoing-content img:not(.no-zoom)',
-				options: {
-					bgColor: 'rgba(0,0,0,0.6)',
-				},
-			},
-		],
-	],
 	extraWatchFiles: ['.vuepress/config.ts'],
 });

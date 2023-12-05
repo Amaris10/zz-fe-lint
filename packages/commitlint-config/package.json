@@ -1,0 +1,23 @@
+{
+  "name": "commitlint-config-encode",
+  "version": "1.0.8",
+  "main": "index.js",
+  "description": "吱吱前端 Git规范",
+  "keywords": [
+    "commit",
+    "lint"
+  ],
+  "author": "Amaris10",
+  "homepage": "https://github.com/Amaris10/zz-fe-lint#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amaris10/zz-fe-lint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Amaris10/zz-fe-lint/issues"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^4.5.0"
+  }
+}
