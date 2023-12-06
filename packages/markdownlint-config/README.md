@@ -1,7 +1,6 @@
-# `markdownlint-config`
+# markdownlint-config-zz
 
-
-> 吱吱前端 文档 规范
+> 吱吱前端 文档规范
 
 支持配套的 [markdownlint 可共享配置](https://www.npmjs.com/package/markdownlint#optionsconfig)。
 

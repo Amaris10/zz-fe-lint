@@ -75,4 +75,3 @@ pnpm run changelog
 - **GitHub**: <https://github.com/Amaris10/zz-fe-lint>
 
 </br>
-

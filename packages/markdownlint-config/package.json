@@ -1,22 +1,19 @@
 {
   "name": "markdownlint-config-zz",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "吱吱前端 文档规范",
-  "author": "Amaris10",
+  "author": "amaris10",
   "homepage": "https://github.com/Amaris10/zz-fe-lint#readme",
   "license": "ISC",
   "main": "index.json",
-  "peerDependencies": {
-    "markdownlint":"0.32.1"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npm.taobao.org/"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Amaris10/zz-fe-lint.git"
   },
   "bugs": {
     "url": "https://github.com/Amaris10/zz-fe-lint/issues"
+  },  
+  "peerDependencies": {
+    "markdownlint": "^0.28.1"
   }
 }
