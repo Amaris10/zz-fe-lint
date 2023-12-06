@@ -5,7 +5,7 @@
   "author": "Amaris10",
   "homepage": "https://github.com/Amaris10/zz-fe-lint#readme",
   "license": "ISC",
-  "main": "index.js",
+  "main": "index.json",
   "peerDependencies": {
     "markdownlint":"0.32.1"
   },
@@ -15,9 +15,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Amaris10/zz-fe-lint.git"
-  },
-  "scripts": {
-    "test": "node ./__tests__/markdownlint-config.test.js"
   },
   "bugs": {
     "url": "https://github.com/Amaris10/zz-fe-lint/issues"
