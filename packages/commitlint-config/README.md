@@ -1,4 +1,4 @@
-# `commitlint-config-encode`
+# `commitlint-config-zz`
 
 > 吱吱前端 Git 规范
 
