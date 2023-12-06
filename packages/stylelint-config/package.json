@@ -1,0 +1,29 @@
+{
+  "name": "stylelint-config-zz",
+  "version": "0.0.1",
+  "description": "吱吱前端 CSS规范",
+  "author": "amaris10",
+  "homepage": "https://github.com/Amaris10/zz-fe-lint#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amaris10/zz-fe-lint.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/stylelint-config.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Amaris10/zz-fe-lint/issues"
+  },
+  "peerDependencies": {
+    "stylelint": ">=8.3.0",
+    "stylelint-scss": ">=2.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "stylelint": "^14.3.0",
+    "stylelint-scss": "^4.1.0"
+  }
+
+}

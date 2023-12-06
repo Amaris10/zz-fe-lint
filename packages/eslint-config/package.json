@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "zzzamaris <283704057@qq.com >",
+  "homepage": "https://github.com/Amaris10/zz-fe-lint#readme",
+  "license": "ISC",
+  "main": "lib/eslint-config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amaris10/zz-fe-lint.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/eslint-config.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Amaris10/zz-fe-lint/issues"
+  }
+}
