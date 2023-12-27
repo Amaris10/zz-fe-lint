@@ -2,7 +2,7 @@
 @unknown {}
 
 .a {
-  color: #fff1az;
+  color: #fff;
 
   /**/
 
@@ -43,7 +43,6 @@
   background: #000;;
   colr: blue;
 }
-// css注释
 .b:unknown {
   background: #000;
 }
@@ -51,8 +50,7 @@
   background: #000;
 }
 unknown {
-  content: "first
-    second";
+  content: "firstsecond";
   width: 10pixels;
   background: #000
 }

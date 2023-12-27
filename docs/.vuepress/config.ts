@@ -30,6 +30,16 @@ export default defineConfig4CustomTheme({
 					{ text: 'CHANGELOG 规范', link: '/engineering/changelog.md' },
 				],
 			},
+			{
+        text: 'NPM包',
+        items: [
+          { text: 'eslint-config-encode', link: '/npm/eslint.md' },
+          { text: 'stylelint-config-encode', link: '/npm/stylelint.md' },
+          { text: 'commitlint-config-encode', link: '/npm/commitlint.md' },
+          { text: 'markdownlint-config-encode', link: '/npm/markdownlint.md' },
+          { text: 'eslint-plugin-encode', link: '/npm/eslint-plugin.md' },
+        ],
+      },
 		],
 		sidebar: [
 			{
@@ -74,6 +84,16 @@ export default defineConfig4CustomTheme({
 					},
 				],
 			},
+			{
+        title: 'NPM包',
+        children: [
+          { title: 'eslint-config-encode', path: '/npm/eslint.md' },
+          { title: 'stylelint-config-encode', path: '/npm/stylelint.md' },
+          { title: 'commitlint-config-encode', path: '/npm/commitlint.md' },
+          { title: 'markdownlint-config-encode', path: '/npm/markdownlint.md' },
+          { title: 'eslint-plugin-encode', path: '/npm/eslint-plugin.md' },
+        ],
+      },
 		],
 		logo: '/img/zizi.svg',
 		repo: 'Amaris10/zz-fe-lint',
