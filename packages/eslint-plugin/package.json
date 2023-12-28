@@ -1,8 +1,8 @@
 {
-  "name": "eslint-plugin",
-  "version": "1.0.9",
-  "description": "> TODO: description",
-  "author": "Amaris10 <283704057@qq.com>",
+  "name": "eslint-plugin-zz",
+  "version": "0.0.1",
+  "description": "eslint plugin for zz-fe",
+  "author": "Amaris10 <amaris10@126.com>",
   "homepage": "https://github.com/Amaris10/zz-fe-lint#readme",
   "license": "ISC",
   "main": "lib/eslint-plugin.js",
@@ -11,16 +11,32 @@
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "configs/",
+    "rules/",
+    "README.md"
+  ],
+  "keywords": [
+    "encode",
+    "eslint",
+    "eslint-plugin"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Amaris10/zz-fe-lint.git"
   },
   "scripts": {
-    "test": "node ./__tests__/eslint-plugin.test.js"
+    "test": "jest",
+    "prepublishOnly": "npm run test"
   },
   "bugs": {
     "url": "https://github.com/Amaris10/zz-fe-lint/issues"
+  },
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "require-all": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "jest": "^26.6.3"
   }
 }
