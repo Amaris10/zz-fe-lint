@@ -151,9 +151,9 @@ importers:
       commander:
         specifier: ^6.2.1
         version: 6.2.1
-      commitlint-config-encode:
-        specifier: ^1.0.8
-        version: 1.0.8
+      commitlint-config-zz:
+        specifier: ^0.0.1
+        version: link:../commitlint-config
       cross-spawn:
         specifier: ^7.0.3
         version: 7.0.3
@@ -166,12 +166,12 @@ importers:
       eslint-config-egg:
         specifier: ^10.0.0
         version: 10.0.0(eslint-import-resolver-typescript@2.7.1)(eslint@8.56.0)(typescript@4.9.5)
-      eslint-config-encode:
-        specifier: ^1.0.8
-        version: 1.0.8
       eslint-config-prettier:
         specifier: ^8.3.0
         version: 8.10.0(eslint@8.56.0)
+      eslint-config-zz:
+        specifier: ^1.0.0
+        version: 1.0.0(eslint@8.56.0)
       eslint-import-resolver-typescript:
         specifier: ^2.5.0
         version: 2.7.1(eslint-plugin-import@2.29.1)(eslint@8.56.0)
@@ -220,9 +220,9 @@ importers:
       markdownlint:
         specifier: ^0.25.1
         version: 0.25.1
-      markdownlint-config-encode:
-        specifier: ^1.0.8
-        version: 1.0.8(markdownlint@0.25.1)
+      markdownlint-config-zz:
+        specifier: ^0.0.1
+        version: link:../markdownlint-config
       markdownlint-rule-helpers:
         specifier: ^0.13.0
         version: 0.13.0
@@ -238,9 +238,9 @@ importers:
       stylelint:
         specifier: ^14.3.0
         version: 14.16.1
-      stylelint-config-encode:
-        specifier: ^1.0.9
-        version: 1.0.9(stylelint-scss@4.7.0)(stylelint@14.16.1)
+      stylelint-config-zz:
+        specifier: ^0.0.2
+        version: 0.0.2(stylelint-scss@4.7.0)(stylelint@14.16.1)
       stylelint-scss:
         specifier: ^4.1.0
         version: 4.7.0(stylelint@14.16.1)
@@ -3111,12 +3111,6 @@ packages:
     resolution: {integrity: sha512-hRpmWIKgzd81vn0ydoWoyPoALEOnF4wt8yKD35Ib1D6XC2siLiYaiqfGkYrunuKdsXGwpBpHU3+9r+RVw2NZfA==}
     engines: {node: '>= 12.0.0'}
 
-  /commitlint-config-encode@1.0.8:
-    resolution: {integrity: sha512-7Lw5PxnT+hMv3Dt+DiaT6A6Fv0wm7hn8fw2SaFUlD2Y7deSDD8ycXdD1GG5pPgZa662+lpiUu6NxbbMpxDSMpw==}
-    dependencies:
-      conventional-changelog-conventionalcommits: 4.6.3
-    dev: false
-
   /commondir@1.0.1:
     resolution: {integrity: sha512-W9pAhw0ja1Edb5GVdIF1mjZw/ASI0AlShXM83UUGe2DVr5TdAPEA1OA8m/g8zWp9x6On7gqufY+FatDbC3MDQg==}
     dev: true
@@ -3874,15 +3868,19 @@ packages:
       - supports-color
       - typescript
 
-  /eslint-config-encode@1.0.8:
-    resolution: {integrity: sha512-2bl1ljL1azeq4MQPKHD8m/oo8Ly2oLr+g8i7F0le9f661JxQIblbw8pCNDacYvDVZ3/2K1OQPik/oiGvJ/0zPw==}
-    dev: false
-
   /eslint-config-prettier@8.10.0(eslint@8.56.0):
     resolution: {integrity: sha512-SM8AMJdeQqRYT9O9zguiruQZaN7+z+E4eAP9oiLNGKMtomwaB1E9dcgUD6ZAn/eQAb52USbvezbiljfZUhbJcg==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
+    dependencies:
+      eslint: 8.56.0
+    dev: false
+
+  /eslint-config-zz@1.0.0(eslint@8.56.0):
+    resolution: {integrity: sha512-KbdHwQr1yEoExN7DauwEvGNid6Wnv4nhiFxYg3SfwzreWKQJPW2bMLU+VRcRvyunvdl60EdE9P1/arfI/4X4Gw==}
+    peerDependencies:
+      eslint: '>= 6'
     dependencies:
       eslint: 8.56.0
     dev: false
@@ -7164,14 +7162,6 @@ packages:
       uc.micro: 1.0.6
     dev: true
 
-  /markdownlint-config-encode@1.0.8(markdownlint@0.25.1):
-    resolution: {integrity: sha512-IPj5WMxoCzHNgujvblNXl42MPnqwdgjDPPQAqoumVbsqOApe4OkQlb8ywWGITyepuB2xnlDgSM+uYi9M9GwaGw==}
-    peerDependencies:
-      markdownlint: ^0.28.1
-    dependencies:
-      markdownlint: 0.25.1
-    dev: false
-
   /markdownlint-micromark@0.1.2:
     resolution: {integrity: sha512-jRxlQg8KpOfM2IbCL9RXM8ZiYWz2rv6DlZAnGv8ASJQpUh6byTBnEsbuMZ6T2/uIgntyf7SKg/mEaEBo1164fQ==}
     engines: {node: '>=14.18.0'}
@@ -8698,8 +8688,8 @@ packages:
   /style-search@0.1.0:
     resolution: {integrity: sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==, tarball: https://registry.npmmirror.com/style-search/-/style-search-0.1.0.tgz}
 
-  /stylelint-config-encode@1.0.9(stylelint-scss@4.7.0)(stylelint@14.16.1):
-    resolution: {integrity: sha512-tp7+rB9UKKqksIrglKUaA4b93Zh/7QiL64lcthjn7ZYygcZMbdJ+f3mcvuVftAaNjXB9EeeD4HSxCp6lhUZl2g==}
+  /stylelint-config-zz@0.0.2(stylelint-scss@4.7.0)(stylelint@14.16.1):
+    resolution: {integrity: sha512-5/qPC73xOJeJ7W70f/Ukwm1ncU7L/3UmnFsUldOPwSvfWGzbMiuk69pqfPIxrSW5iYsWQ/4y/rlZEvyQX6xEvw==}
     peerDependencies:
       stylelint: '>=8.3.0'
       stylelint-scss: '>=2.0.0'
