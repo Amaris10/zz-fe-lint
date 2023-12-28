@@ -33,11 +33,11 @@ export default defineConfig4CustomTheme({
 			{
         text: 'NPM包',
         items: [
-          { text: 'eslint-config-encode', link: '/npm/eslint.md' },
-          { text: 'stylelint-config-encode', link: '/npm/stylelint.md' },
-          { text: 'commitlint-config-encode', link: '/npm/commitlint.md' },
-          { text: 'markdownlint-config-encode', link: '/npm/markdownlint.md' },
-          { text: 'eslint-plugin-encode', link: '/npm/eslint-plugin.md' },
+          { text: 'eslint-config-zzz', link: '/npm/eslint.md' },
+          { text: 'stylelint-config-zz', link: '/npm/stylelint.md' },
+          { text: 'commitlint-config-zz', link: '/npm/commitlint.md' },
+          { text: 'markdownlint-config-zz', link: '/npm/markdownlint.md' },
+          { text: 'eslint-plugin-zz', link: '/npm/eslint-plugin.md' },
         ],
       },
 		],
@@ -87,11 +87,11 @@ export default defineConfig4CustomTheme({
 			{
         title: 'NPM包',
         children: [
-          { title: 'eslint-config-encode', path: '/npm/eslint.md' },
-          { title: 'stylelint-config-encode', path: '/npm/stylelint.md' },
-          { title: 'commitlint-config-encode', path: '/npm/commitlint.md' },
-          { title: 'markdownlint-config-encode', path: '/npm/markdownlint.md' },
-          { title: 'eslint-plugin-encode', path: '/npm/eslint-plugin.md' },
+          { title: 'eslint-config-zzz', path: '/npm/eslint.md' },
+          { title: 'stylelint-config-zz', path: '/npm/stylelint.md' },
+          { title: 'commitlint-config-zz', path: '/npm/commitlint.md' },
+          { title: 'markdownlint-config-zz', path: '/npm/markdownlint.md' },
+          { title: 'eslint-plugin-zz', path: '/npm/eslint-plugin.md' },
         ],
       },
 		],
