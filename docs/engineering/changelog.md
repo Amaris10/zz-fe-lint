@@ -5,8 +5,8 @@ categories:
 tags:
     - 工程规范
 author:
-    name: 澄怀
-    link: https://github.com/encode-studio-fe/fe-spec
+    name: amaris10
+    link: https://github.com/amaris10/zz-fe-lint
 ---
 
 # CHANGELOG 规范
